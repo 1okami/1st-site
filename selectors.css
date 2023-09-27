@@ -1,0 +1,72 @@
+/* Tag name selector */
+h1 {
+    text-align: center;
+}
+body {
+    background-color: #eee;
+}
+
+.table {
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/* Class selector */
+
+.card {
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.card p {
+    font-size: larger;
+}
+
+.first {
+    background-color: aqua;
+}
+
+.second {
+    background-color: bisque;
+}
+/* ID selector */
+
+#header {
+    background: #ddd;
+}
+#header, .card {
+    margin-bottom: 10px;
+}
+
+* {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border: solid;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.list li {
+    text-align: left;
+}
+/* #elem {
+    margin-left: 32px;
+}  */
+
+.logo {
+    border-radius: 10px;
+}
